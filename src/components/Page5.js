@@ -1,6 +1,4 @@
 import React from 'react'
-
-// tab 5 = tinyhomes
 import { placesStore } from '../store/Store'
 import "../styles/Page1.css";
 import { AiFillStar } from "react-icons/ai"
@@ -21,7 +19,7 @@ import { Pagination } from "swiper";
 
 const Page5 = () => {
 
-
+// Page 5 Homes
 
     return (
         <div>

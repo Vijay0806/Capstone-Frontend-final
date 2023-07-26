@@ -13,11 +13,10 @@ import { IoBedOutline } from "react-icons/io5"
 import { GiBathtub } from "react-icons/gi"
 import { BsStars } from "react-icons/bs"
 import { BiBuildingHouse } from "react-icons/bi"
-// import { Pagination } from "swiper";
 import {Pagination} from "swiper";
 
-//TAB 1 = TROPICAL 
-
+ 
+// Page 1-Tropical:
 
 
 const Page1 = ({ pushDown }) => {

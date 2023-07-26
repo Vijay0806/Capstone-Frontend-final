@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { placesStore } from '../store/Store'
 import "../styles/Page1.css";
 import { AiFillStar } from "react-icons/ai"

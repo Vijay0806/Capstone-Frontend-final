@@ -3,7 +3,7 @@ import Home from './components/Home';
 import TabsComp from "./Pages";
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import SinglePage from './components/SinglePage';
-// import Checkout from './components/Checkout';
+import Checkout from './components/Checkout';
 import { useState } from 'react';
 import SearchDetails from './components/SearchDetails';
 import SearchPageFooter from './components/SearchPageFooter';
@@ -28,7 +28,7 @@ export function logout() {
 
 function ProdectedRoute({ children }) {
   const isAuth = localStorage.getItem("token");
-  console.log(isAuth)
+  // console.log(isAuth)
   return isAuth ? children : <Navigate replace to={"/"} />
 }
 //checkAuth is normal fuction not a component
@@ -76,7 +76,7 @@ function App() {
             <Route path="/" exact element={ <ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </> </ProdectedRoute>} />
             <Route path="/Amazing" exact element={<ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} /> </> </ProdectedRoute> } />
             <Route path="/:id" element={<ProdectedRoute>  <>  <Home /> <SinglePage /> </> </ProdectedRoute> } />
-            {/* <Route path="/checkout/:id/:days" exact element={<ProdectedRoute>  <> <Home />  <Checkout /> </> </ProdectedRoute> } /> */}
+            <Route path="/checkout/:id/:days" exact element={<ProdectedRoute>  <> <Home />  <Checkout /> </> </ProdectedRoute> } />
             <Route path="/location/:loc" exact element={ <ProdectedRoute> <>  <Home /> <SearchDetails /> </> </ProdectedRoute> } />
           </Routes>
           </Provider>

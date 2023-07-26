@@ -2,7 +2,9 @@ import React from 'react'
 
 const Completion = () => {
   return (
-    <div>CONGRATS PAYMENT COMPLEETED</div>
+    <div>
+      <p>Payment successfull</p>
+    </div>
   )
 }
 

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-//border-bottom : none;
-
 import "../src/styles/Tabs.css"
 import Page1 from './components/Page1';
 import Page2 from "./components/Page2"
@@ -13,7 +11,7 @@ import Page7 from "./components/Page7";
 import Page8 from "./components/Page8";
 import Page9 from "./components/Page9";
 import Page10 from "./components/Page10";
-
+//border-bottom : none;
 const TabsComp = ({ toggle, setToggle }) => {
 
 

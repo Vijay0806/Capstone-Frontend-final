@@ -15,7 +15,7 @@ import SinglePageMiddle from './SinglePageMiddle';
 import Footer1 from './Footer1';
 import Footer2 from './Footer2';
 import { createContext } from 'react';
-import "../styles/Page1.css";
+import "../styles/Tabs.css";
 
 const SinglePage = () => {
 
