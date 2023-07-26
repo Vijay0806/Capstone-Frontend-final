@@ -24,56 +24,7 @@ const TabsComp = ({ toggle, setToggle }) => {
         <TabList className="placeTabs-hold">
           <Tab className='tabImg md:pr-1 pr-0'>
             <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-          
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/c0fa9598-4e37-40f3-b734-4bd0e2377add.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/eb7ba4c0-ea38-4cbb-9db6-bdcc8baad585.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/eb7ba4c0-ea38-4cbb-9db6-bdcc8baad585.jpg' alt='hey' />
-            </div>
-
-          </Tab>
-
-          <Tab className='tabImg md:pr-1 pr-0'>
-            <div className='w-8'>
-              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg' alt='hey' />
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg' alt='hey' />
             </div>
 
           </Tab>
@@ -88,6 +39,55 @@ const TabsComp = ({ toggle, setToggle }) => {
           <Tab className='tabImg md:pr-1 pr-0'>
             <div className='w-8'>
               <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+          
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/52c8d856-33d0-445a-a040-a162374de100.jpg' alt='hey' />
+            </div>
+
+          </Tab>
+
+          <Tab className='tabImg md:pr-1 pr-0'>
+            <div className='w-8'>
+              <img className='md:w-8 w-6' src='https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg' alt='hey' />
             </div>
 
           </Tab>
