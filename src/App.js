@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './components/Home';
-// import TabsComp from './Tabs';
-import TabsComp from "./Tabs";
+import TabsComp from "./Pages";
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 // import SinglePage from './components/SinglePage';
 // import Checkout from './components/Checkout';

@@ -1,6 +1,8 @@
 import React from 'react'
+
 import { placesStore } from '../store/Store'
-import "../styles/Tab1.css";
+import "../styles/Page1.css";
+import { AiFillStar } from "react-icons/ai"
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -13,21 +15,18 @@ import { IoBedOutline } from "react-icons/io5"
 import { GiBathtub } from "react-icons/gi"
 import { BsStars } from "react-icons/bs"
 import { BiBuildingHouse } from "react-icons/bi"
-// import { Pagination } from "swiper";
-import {Pagination} from "swiper";
-
-//TAB 1 = TROPICAL 
+import { Pagination } from "swiper";
 
 
 
-const Tab1 = ({ pushDown }) => {
+const Page8 = () => {
 
 
     return (
         <div>
             <div className='tab1-hold flex justify-center md:mb-48 mb-28 items-center sm:gap-12 gap-0 -mt-16 flex-wrap w-full'>
                 {placesStore.map((item => {
-                    if (item.type === "tropical") {
+                    if (item.type === "view") {
                         return (
                             <div className='card boxsh' key={item.id}>
 
@@ -109,9 +108,10 @@ const Tab1 = ({ pushDown }) => {
                 }))}
             </div>
 
-        </div >
+        </div>
     )
+
+
 }
 
-export default Tab1
-//
+export default Page8
