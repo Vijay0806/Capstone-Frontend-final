@@ -2,11 +2,11 @@ import './App.css';
 import Home from './components/Home';
 import TabsComp from "./Pages";
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
-// import SinglePage from './components/SinglePage';
+import SinglePage from './components/SinglePage';
 // import Checkout from './components/Checkout';
 import { useState } from 'react';
-// import SearchDetails from './components/SearchDetails';
-// import SearchPageFooter from './components/SearchPageFooter';
+import SearchDetails from './components/SearchDetails';
+import SearchPageFooter from './components/SearchPageFooter';
 import Home1 from "./Home1"
 import Signin from "./Signin";
 import { LoginForm } from "./Home1";
@@ -73,11 +73,11 @@ function App() {
             <Route path='/signin' element={<Signin />} />
             {/* <Route  path='/Amazing' element={ <ProdectedRoute><Home /> </ProdectedRoute> }></Route> */}
             {/* <Route  path='/TabsComp' element={<TabsComp/>} ></Route> */}
-            {/* <Route path="/" exact element={ <ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </> </ProdectedRoute>} /> */}
+            <Route path="/" exact element={ <ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </> </ProdectedRoute>} />
             <Route path="/Amazing" exact element={<ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} /> </> </ProdectedRoute> } />
-            {/* <Route path="/:id" element={<ProdectedRoute>  <>  <Home /> <SinglePage /> </> </ProdectedRoute> } /> */}
+            <Route path="/:id" element={<ProdectedRoute>  <>  <Home /> <SinglePage /> </> </ProdectedRoute> } />
             {/* <Route path="/checkout/:id/:days" exact element={<ProdectedRoute>  <> <Home />  <Checkout /> </> </ProdectedRoute> } /> */}
-            {/* <Route path="/location/:loc" exact element={ <ProdectedRoute> <>  <Home /> <SearchDetails /> </> </ProdectedRoute> } /> */}
+            <Route path="/location/:loc" exact element={ <ProdectedRoute> <>  <Home /> <SearchDetails /> </> </ProdectedRoute> } />
           </Routes>
           </Provider>
           </ChakraProvider>

@@ -389,7 +389,7 @@ const Home = ({ toggle, setToggle }) => {
                         console.log(err)
                       }}
                     >
-                      <GoogleButton type='dark' label='' className='googleAuthBtn' />
+                      {/* <GoogleButton type='dark' label='' className='googleAuthBtn' /> */}
                     </LoginSocialGoogle>
                   </div>
                   {userimage.length > 2 ? <img src={userimage} className="UserLoginImage ml-5" /> : <div className="block flex-grow-0 flex-shrink-0 h-10 w-12 pl-5">
