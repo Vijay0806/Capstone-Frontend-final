@@ -206,7 +206,7 @@ const Home = ({ toggle, setToggle }) => {
 
 
                       <TabPanels>
-{/* 
+
                         <TabPanel>
 
                           <div className='absolute z-50 tabContentPlaces'>
@@ -281,7 +281,7 @@ const Home = ({ toggle, setToggle }) => {
 
 
 
-                        </TabPanel> */}
+                        </TabPanel>
                         <TabPanel>
                           <CalendarNavBar />
                         </TabPanel>
