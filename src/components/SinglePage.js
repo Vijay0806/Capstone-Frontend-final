@@ -91,9 +91,9 @@ const SinglePage = () => {
                 <img src={carouselPic5} className="w-40 rounded-xl cursor-pointer single-page-pic" onMouseOver={getImageSrcHnadler} onMouseLeave={setDefaultImgHnadler} />
             </div>
 
-            <p className='features-text text-2xl font-semibold uppercase'>Entire rental unit hosted by Ben  </p>
+            <p className='features-text text-2xl font-semibold '>𝕰𝖓𝖙𝖎𝖗𝖊 𝖛𝖎𝖑𝖑𝖆 𝖍𝖔𝖘𝖙𝖊𝖉 𝖇𝖞 𝕾𝖆𝖗𝖆𝖓  </p>
 
-            <p className='actual-features text-xl'>{Math.floor(Math.random() * 6) + 3} guests . {Math.floor(Math.random() * 6) + 1} . bedrooms {Math.floor(Math.random() * 5) + 3} beds . {Math.floor(Math.random() * 2) + 3}  bathrooms</p>
+            <p className='actual-features text-xl'>{Math.floor(Math.random() * 6) + 2} guests . {Math.floor(Math.random() * 6) + 2} . bedrooms {Math.floor(Math.random() * 5) + 5} beds . {Math.floor(Math.random() * 2) + 3}  bathrooms</p>
 
             <p className='line1 text-gray-300'>__________________________________________________________________________________________________________</p>
             <p className='line2 text-gray-300'>__________________________________________________________________________________________________________</p>
@@ -108,20 +108,20 @@ const SinglePage = () => {
             </div>
 
             <div className='heading-hold'>
-                <p className='text-xl font-semibold'>Ben is a Superhost. </p>
-                <p className='text-xl font-semibold'>Great check-in experience.  </p>
-                <p className='text-xl font-semibold'>Free cancellation for 48 hours. </p>
+                <p className='text-xl font-semibold'>𝐒𝐚𝐫𝐚𝐧 𝐢𝐬 𝐚 𝐒𝐮𝐩𝐞𝐫𝐡𝐨𝐬𝐭. </p>
+                <p className='text-xl font-semibold'>𝐆𝐫𝐞𝐚𝐭 𝐜𝐡𝐞𝐜𝐤-𝐢𝐧 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞.  </p>
+                <p className='text-xl font-semibold'>𝐅𝐫𝐞𝐞 𝐜𝐚𝐧𝐜𝐞𝐥𝐥𝐚𝐭𝐢𝐨𝐧 𝐟𝐨𝐫 𝐁𝐨𝐨𝐤𝐢𝐧𝐠 𝐢𝐧 𝟐𝟒 𝐡𝐨𝐮𝐫𝐬. </p>
             </div>
 
             <div className='description-hold'>
-                <p> highly rated hosts who are committed to providing great stays for their guests.</p>
-                <p className='-mt-4 sm:mt-0'>90% of recent guests gave the check-in process a 5-star rating.</p>
-                <p className='mt-4 sm:mt-0'>No questions asked.</p>
+                <p>𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐚𝐥 𝐡𝐨𝐬𝐭𝐬 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐨𝐮𝐭𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐬𝐭𝐚𝐲𝐬 𝐟𝐨𝐫 𝐭𝐡𝐞𝐢𝐫 𝐠𝐮𝐞𝐬𝐭𝐬, 𝐫𝐞𝐜𝐞𝐢𝐯𝐢𝐧𝐠 𝐭𝐨𝐩 𝐫𝐚𝐭𝐢𝐧𝐠𝐬 𝐟𝐨𝐫 𝐭𝐡𝐞𝐢𝐫 𝐞𝐟𝐟𝐨𝐫𝐭𝐬.</p>
+                <p className='-mt-4 sm:mt-0'>𝐓𝐡𝐞 𝐜𝐡𝐞𝐜𝐤-𝐢𝐧 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐫𝐞𝐜𝐞𝐢𝐯𝐞𝐝 𝐚 𝐬𝐭𝐞𝐥𝐥𝐚𝐫 𝟓-𝐬𝐭𝐚𝐫 𝐫𝐚𝐭𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝟗𝟎% 𝐨𝐟 𝐫𝐞𝐜𝐞𝐧𝐭 𝐠𝐮𝐞𝐬𝐭𝐬..</p>
+                <p className='mt-4 sm:mt-0'>𝐍𝐨 𝐐𝐮𝐫𝐢𝐞𝐬 𝐫𝐚𝐢𝐬𝐞𝐝.</p>
 
             </div>
 
             <div className='side-box-card absolute'>
-                <p className='single-page-price font-semibold text-2xl'> ${price}/ Night   </p>
+                <p className='single-page-price font-semibold text-2xl'> ${price}/ ℕ𝕚𝕘𝕙𝕥   </p>
 
                 <div className='ab'>
                     <FaStar />
@@ -143,17 +143,17 @@ const SinglePage = () => {
             </div>
 
             <div className='expense-title-hold'>
-                <p>Servicing Fee</p>
-                <p>Cleaning Fee</p>
-                <p>Processing Fee</p>
+                <p>𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑪𝒉𝒂𝒓𝒈𝒆</p>
+                <p>𝑪𝒍𝒆𝒂𝒏𝒊𝒏𝒈 𝑪𝒉𝒂𝒓𝒈𝒆</p>
+                <p>𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝑪𝒉𝒂𝒓𝒈𝒆</p>
             </div>
 
             <div className='calculated-expense-hold'>
 
-                <p className='relative w-40 le'>calculated at next step</p>
-                <p>180</p>
-                <p>230</p>
-                <p>450</p>
+                <p className='relative w-40 le'>calculated at next stage</p>
+                <p>150</p>
+                <p>250</p>
+                <p>530</p>
 
             </div>
             <div className='line-total text-gray-300'>_____________________________________________________</div>

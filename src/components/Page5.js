@@ -79,8 +79,8 @@ const Page5 = () => {
                                     <div className='flex gap-0 pl-3 pr-3 justify-between'>
 
                                         <div className='flex'>
-                                            <p className=' text-violet-600 font-semibold mr-1 text-2xl'> ${item.price.toLocaleString()}</p>
-                                            <p className='text-gray-400 text-sm pt-2'> /month </p>
+                                        <p className='text-green-600 font-semibold mr-1 text-2xl'> ${item.price.toLocaleString()}</p>
+                                            <p className='text-blue-400 text-sm pt-2'> /𝕞𝕠𝕟𝕥𝕙</p>
                                         </div>
 
                                         <FiHeart className='text-sm heartCrad  boxsh' />
