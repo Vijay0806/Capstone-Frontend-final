@@ -555,7 +555,7 @@
 
   .agg {
     top: 17rem !important;
-    left: -3rem !important;
+    right: -3rem !important;
     display: none;
   }
 

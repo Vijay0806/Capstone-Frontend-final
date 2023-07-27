@@ -30,7 +30,7 @@ const Checkout = (props) => {
           <p className='checkout-name'>{name}</p>
         </Link>
 
-        <p className='checkout-stars'>{stars} (15reviews) </p>
+        <p className='checkout-stars'>{stars} (14reviews) </p>
 
         <p className='checkout-start-price font-semibold'>${price}</p>
 

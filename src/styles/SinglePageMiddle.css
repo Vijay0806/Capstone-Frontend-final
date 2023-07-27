@@ -110,7 +110,8 @@
 .spm-rev-btn {
     position: absolute;
     top: 191rem;
-    left: 10rem;
+    right: 15rem;
+    /* left: 10rem; */
     width: 13rem;
     height: 4rem;
     font-weight: 600;

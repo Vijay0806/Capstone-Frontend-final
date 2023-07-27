@@ -1,12 +1,12 @@
 import React from 'react'
 import "../styles/SinglePageMiddle.css"
-import section3 from "../../src/styles/av.png"
+import section3 from "../../src/styles/airbnb-3.jpg"
 import { useParams } from 'react-router-dom'
 import { FaStar } from "react-icons/fa"
 import { placesStore } from '../store/Store'
 import rev1 from "../styles/stars1.png"
 import rev2 from "../styles/stars2.png"
-import reviews from "../styles/rev.png";
+import reviews from "../styles/rev.jpg";
 import modalPic from "../styles/pic.png"
 
 
@@ -72,9 +72,7 @@ const SinglePageMiddle = () => {
         <button className='' onClick={(e) => e.preventDefault()}></button>
 
         <div className='agg'>
-
-            <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn">Display additional 15 reviews.</label>
-
+          <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn float-left">Display additional 14 reviews.</label>
             <input type="checkbox" id="my-modal-5" className="modal-toggle" />
             <label htmlFor="my-modal-5" className="modal cursor-pointer">
                 <label className="modal-box relative" for="">
