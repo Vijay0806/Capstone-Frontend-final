@@ -1180,8 +1180,56 @@ export const placesStore=[
     // tab 6 i.e design
 
     
+   
     {
         id:"70",
+        homeMainPic: "https://a0.muscache.com/im/pictures/0cc71977-6c16-4f16-9462-205b152b44f6.jpg?im_w=720",
+        name:"Colva",
+        price: 3500,
+        type:"design",
+        stars: "5.00",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/ec6a643e-3f9c-4e2d-98a0-09b1f5f26f4b.jpg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/7312e052-de8e-4a5b-872f-f1bce5e0b670.jpg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/16d3733d-d472-4daf-a873-8ee5b74ab3c5.jpg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/348e0dd5-7f90-4b88-8219-ae60eb0717ed.jpg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/5fee595d-910c-4cfc-9174-727560b40263.jpg?im_w=720",
+        location:"kyiv",
+        pets:true,
+    },
+
+    {
+        id:"71",
+        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/8aec4c00-ae4b-4432-82e6-adcd7f462a74.jpeg?im_w=720",
+        name:"Benaulia",
+        price: 8750,
+        type:"design",
+        stars: "New",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/d7e1f632-4882-4bee-aa94-c19fc9440a9f.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/e9d024a6-2c90-4786-8d2a-303df05f30a4.jpeg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/5e78c5b6-38a9-4692-b3dd-41b42409182b.jpeg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/7964798e-a499-4eb7-9249-45b43232ef88.jpeg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/b48927ce-4538-464f-93a8-fa557d657069.jpeg?im_w=720",
+        location:"kyiv",
+        pets:false,
+    },
+
+    {
+        id:"72",
+        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/8fe3b3d4-b0bd-4aff-9836-0805244590e4.jpeg?im_w=720",
+        name:"Calangute",
+        price: 6300,
+        type:"design",
+        stars: "3.8",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/20d43aeb-b30c-4d9c-9c2c-d62ade05d117.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/f9c505c2-865b-4e2a-96f0-003ff760f6cd.jpeg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/2b40593e-96e9-49d7-bb75-f8ed746c1b5e.jpeg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/f9ef5ea3-4f8d-4fd8-93f6-83a439c2e9e4.jpeg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/9847b513-fbd4-4548-a667-ac3daaaded66.jpeg?im_w=720",
+        location:"kyiv",
+        pets:false,
+    },
+    {
+        id:"73",
         homeMainPic: "https://a0.muscache.com/im/pictures/321a1e3a-2827-46f8-8966-9910c9678ca8.jpg?im_w=720",
         name:"Colava",
         price: 5725,
@@ -1199,7 +1247,7 @@ export const placesStore=[
     },
 
     {
-        id:"71",
+        id:"74",
         homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-52800305/original/3ae97076-6969-49da-8a20-f461b4b86903.jpeg?im_w=720",
         name:"Candolim",
         price: 7582,
@@ -1216,7 +1264,7 @@ export const placesStore=[
 
     
     {
-        id:"72",
+        id:"75",
         homeMainPic: "https://a0.muscache.com/im/pictures/981afb1a-07d1-42c8-9c65-1ca842f6de6a.jpg?im_w=720",
         name:"Matata",
         price: 8452,
@@ -1231,53 +1279,6 @@ export const placesStore=[
         pets:true,
     },
 
-    {
-        id:"73",
-        homeMainPic: "https://a0.muscache.com/im/pictures/0cc71977-6c16-4f16-9462-205b152b44f6.jpg?im_w=720",
-        name:"Colva",
-        price: 3500,
-        type:"design",
-        stars: "5.00",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/ec6a643e-3f9c-4e2d-98a0-09b1f5f26f4b.jpg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/7312e052-de8e-4a5b-872f-f1bce5e0b670.jpg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/16d3733d-d472-4daf-a873-8ee5b74ab3c5.jpg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/348e0dd5-7f90-4b88-8219-ae60eb0717ed.jpg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/5fee595d-910c-4cfc-9174-727560b40263.jpg?im_w=720",
-        location:"kyiv",
-        pets:true,
-    },
-
-    {
-        id:"74",
-        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/8aec4c00-ae4b-4432-82e6-adcd7f462a74.jpeg?im_w=720",
-        name:"Benaulia",
-        price: 8750,
-        type:"design",
-        stars: "New",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/d7e1f632-4882-4bee-aa94-c19fc9440a9f.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/e9d024a6-2c90-4786-8d2a-303df05f30a4.jpeg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/5e78c5b6-38a9-4692-b3dd-41b42409182b.jpeg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/7964798e-a499-4eb7-9249-45b43232ef88.jpeg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/b48927ce-4538-464f-93a8-fa557d657069.jpeg?im_w=720",
-        location:"kyiv",
-        pets:false,
-    },
-
-    {
-        id:"75",
-        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/8fe3b3d4-b0bd-4aff-9836-0805244590e4.jpeg?im_w=720",
-        name:"Calangute",
-        price: 6300,
-        type:"design",
-        stars: "3.8",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/20d43aeb-b30c-4d9c-9c2c-d62ade05d117.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/f9c505c2-865b-4e2a-96f0-003ff760f6cd.jpeg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/2b40593e-96e9-49d7-bb75-f8ed746c1b5e.jpeg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/f9ef5ea3-4f8d-4fd8-93f6-83a439c2e9e4.jpeg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/9847b513-fbd4-4548-a667-ac3daaaded66.jpeg?im_w=720",
-        location:"kyiv",
-        pets:false,
-    },
 
     
     {
@@ -1433,56 +1434,9 @@ export const placesStore=[
 
 
     // Tab 7 i.e islands
+   
     {
         id:"85",
-        homeMainPic: "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720",
-        name:"Abiansemal",
-        price: 500,
-        type:"islands",
-        stars: "4.88",
-        carouselPic1: "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/f4f7b242-db33-46fc-9080-c3d6a6fd55ec.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/372e7d6f-7fb9-4668-92f0-25bb9a346814.jpeg?im_w=720 ",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/4756e699-f474-4ca7-8b77-06b12715a6cb.jpeg?im_w=720 ",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/fca892a4-3481-4ad1-9f92-404feaa42e9f.jpeg?im_w=720 " ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/36d8007a-0de5-439d-9fec-1c2d7b53a147.jpeg?im_w=720",
-        location:"usa us",
-        pets:false,
-    },
-
-    {
-        id:"86",
-        homeMainPic: "https://a0.muscache.com/im/pictures/0b25f6b3-f215-4938-ac81-581eb3929047.jpg?im_w=720",
-        name:"Balian Beach",
-        price: 400,
-        type:"islands",
-        stars: "4.84",
-        carouselPic1: "https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/9833de62-35b7-41f2-8a24-0d9354150ea7.jpg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/de73abc2-5dc9-4962-ba32-5d28211cdde0.jpg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/92d22326-8207-4357-951b-35dab300db95.jpg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/f52d2902-c301-400f-84c9-373efa448854.jpg?im_w=720",
-        location:"usa us",
-        pets:false,
-    },
-
-    {
-        id:"87",
-        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/bb35bfcf-f276-4e00-a0d1-73b319b2a9cd.jpeg?im_w=720",
-        name:"Ubud Mansion",
-        price: 200,
-        type:"islands",
-        stars: "4.64",
-        carouselPic1: "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/1854bf1b-dc40-49ed-9c2e-d378663a7a02.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/da951ef9-3fed-4c15-b4b8-2cd5b24357a9.jpeg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/ce7599e7-5560-4bed-9fc5-c0bc82d70fd0.jpeg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/5612048a-ab35-4ca5-81e8-646d2f7a2b3c.jpeg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/8983f2dc-6d79-48a6-8f8f-656fda0982a4.jpeg?im_w=720",
-        location:"usa us",
-        pets:false,
-    },
-
-    {
-        id:"88",
         homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-5904771/original/ab9a30d4-a6cf-4b3a-8416-cf7314ed5432.jpeg?im_w=720",
         name:"Selat Mansion",
         price: 2000,
@@ -1500,7 +1454,7 @@ export const placesStore=[
     },
 
     {
-        id:"89",
+        id:"86",
         homeMainPic: "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg?im_w=720",
         name:"Selat Mansion",
         price: 2000,
@@ -1518,7 +1472,7 @@ export const placesStore=[
     },
 
     {
-        id:"90",
+        id:"87",
         homeMainPic: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/11058c0d-fac8-4035-8f16-8b3abe7441cd.jpeg?im_w=720",
         name:"Kekamatan Ubud",
         price: 5000,
@@ -1534,6 +1488,54 @@ export const placesStore=[
         couple:true,
 
     },
+    {
+        id:"88",
+        homeMainPic: "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720",
+        name:"Abiansemal",
+        price: 500,
+        type:"islands",
+        stars: "4.88",
+        carouselPic1: "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/f4f7b242-db33-46fc-9080-c3d6a6fd55ec.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/372e7d6f-7fb9-4668-92f0-25bb9a346814.jpeg?im_w=720 ",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/4756e699-f474-4ca7-8b77-06b12715a6cb.jpeg?im_w=720 ",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/fca892a4-3481-4ad1-9f92-404feaa42e9f.jpeg?im_w=720 " ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/36d8007a-0de5-439d-9fec-1c2d7b53a147.jpeg?im_w=720",
+        location:"usa us",
+        pets:false,
+    },
+
+    {
+        id:"89",
+        homeMainPic: "https://a0.muscache.com/im/pictures/0b25f6b3-f215-4938-ac81-581eb3929047.jpg?im_w=720",
+        name:"Balian Beach",
+        price: 400,
+        type:"islands",
+        stars: "4.84",
+        carouselPic1: "https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/9833de62-35b7-41f2-8a24-0d9354150ea7.jpg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/de73abc2-5dc9-4962-ba32-5d28211cdde0.jpg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/92d22326-8207-4357-951b-35dab300db95.jpg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/f52d2902-c301-400f-84c9-373efa448854.jpg?im_w=720",
+        location:"usa us",
+        pets:false,
+    },
+
+    {
+        id:"90",
+        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/bb35bfcf-f276-4e00-a0d1-73b319b2a9cd.jpeg?im_w=720",
+        name:"Ubud Mansion",
+        price: 200,
+        type:"islands",
+        stars: "4.64",
+        carouselPic1: "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/1854bf1b-dc40-49ed-9c2e-d378663a7a02.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/da951ef9-3fed-4c15-b4b8-2cd5b24357a9.jpeg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/ce7599e7-5560-4bed-9fc5-c0bc82d70fd0.jpeg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/5612048a-ab35-4ca5-81e8-646d2f7a2b3c.jpeg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/8983f2dc-6d79-48a6-8f8f-656fda0982a4.jpeg?im_w=720",
+        location:"usa us",
+        pets:false,
+    },
+
 
     {
         id:"91",
@@ -1686,9 +1688,55 @@ export const placesStore=[
 
     // Tab 8 i.e view
 
-    
     {
         id:"100",
+        homeMainPic: "https://a0.muscache.com/im/pictures/957489e8-c915-4208-a99d-c75334d5d58e.jpg?im_w=720",
+        name:"Loutulim",
+        price: 8800,
+        type:"view",
+        stars: "4.91",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/6c4f0013-6650-4184-9b6d-083cc254d45f.jpg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/72182496-2965-45ba-9858-1bf06a03b8d1.jpg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/d1c2e3bd-aebe-4fcf-b91f-f0bc557666f1.jpg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/891736e3-a1b3-461c-895c-65f5ebc22ada.jpg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/bd68eb62-b199-4f18-a9e4-5f7ca590d168.jpg?im_w=720",
+        location:"italy",
+        pets:true,
+    },
+
+    {
+        id:"101",
+        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/6316e9f3-9f94-43b0-8d84-30e0a9516663.jpeg?im_w=720",
+        name:"Panji",
+        price: 6752,
+        type:"view",
+        stars: "4.85",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/f6a7ecab-e303-49cb-8e3d-46c5bed00001.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/dc962781-52af-4394-b5d1-305303eda44f.jpeg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/47e80e89-ed7d-44c8-aa58-e474e89c9efa.jpeg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/7ca45d8b-ceb8-49c0-9f0c-a9953a8801e6.jpeg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/9aae2290-471b-4e5c-ab2a-159c5c79ca80.jpeg?im_w=720",
+        location:"italy",
+        pets:true,
+    },
+
+    {
+        id:"102",
+        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/ca837f4e-fc63-4de8-8abd-d867f5045196.jpeg?im_w=720",
+        name:"Colava",
+        price: 9800,
+        type:"view",
+        stars: "4.8",
+        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/c3d940b1-8aa2-423b-b38d-e6fdc94833c0.jpeg?im_w=720",
+        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/777e902a-8d7d-405a-80ca-97f89749b91e.jpeg?im_w=720",
+        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/04398ee5-0e48-462a-86a0-a3801bad2172.jpeg?im_w=720",
+        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/ca837f4e-fc63-4de8-8abd-d867f5045196.jpeg?im_w=720" ,
+        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/49cddd92-0663-4ec8-8272-43f207fcfd4f.jpeg?im_w=720",
+        location:"italy",
+        pets:false,
+    },
+    {
+        id:"103",
         homeMainPic: "https://a0.muscache.com/im/pictures/2d8ea58a-bb1c-4145-9f48-94fcbaafc8a6.jpg?im_w=720",
         name:"Badungr",
         price: 6650,
@@ -1706,7 +1754,7 @@ export const placesStore=[
     },
 
     {
-        id:"101",
+        id:"104",
         homeMainPic: "https://a0.muscache.com/im/pictures/e44d6ea0-d174-4024-9fac-c254c55b1221.jpg?im_w=720",
         name:"SagoFil",
         price: 4500,
@@ -1723,7 +1771,7 @@ export const placesStore=[
 
     
     {
-        id:"102",
+        id:"105",
         homeMainPic: "https://a0.muscache.com/im/pictures/a98abbe7-615f-45a9-a614-37910e7e909e.jpg?im_w=720",
         name:"Cancona",
         price: 4800,
@@ -1738,55 +1786,6 @@ export const placesStore=[
         pets:true,
     },
 
-    
-    
-    {
-        id:"103",
-        homeMainPic: "https://a0.muscache.com/im/pictures/957489e8-c915-4208-a99d-c75334d5d58e.jpg?im_w=720",
-        name:"Loutulim",
-        price: 8800,
-        type:"view",
-        stars: "4.91",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/6c4f0013-6650-4184-9b6d-083cc254d45f.jpg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/72182496-2965-45ba-9858-1bf06a03b8d1.jpg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/d1c2e3bd-aebe-4fcf-b91f-f0bc557666f1.jpg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/891736e3-a1b3-461c-895c-65f5ebc22ada.jpg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/bd68eb62-b199-4f18-a9e4-5f7ca590d168.jpg?im_w=720",
-        location:"italy",
-        pets:true,
-    },
-
-    {
-        id:"104",
-        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/6316e9f3-9f94-43b0-8d84-30e0a9516663.jpeg?im_w=720",
-        name:"Panji",
-        price: 6752,
-        type:"view",
-        stars: "4.85",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/f6a7ecab-e303-49cb-8e3d-46c5bed00001.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/dc962781-52af-4394-b5d1-305303eda44f.jpeg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/47e80e89-ed7d-44c8-aa58-e474e89c9efa.jpeg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/7ca45d8b-ceb8-49c0-9f0c-a9953a8801e6.jpeg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/9aae2290-471b-4e5c-ab2a-159c5c79ca80.jpeg?im_w=720",
-        location:"italy",
-        pets:true,
-    },
-
-    {
-        id:"105",
-        homeMainPic: "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/ca837f4e-fc63-4de8-8abd-d867f5045196.jpeg?im_w=720",
-        name:"Colava",
-        price: 9800,
-        type:"view",
-        stars: "4.8",
-        carouselPic1:  "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/c3d940b1-8aa2-423b-b38d-e6fdc94833c0.jpeg?im_w=720",
-        carouselPic2 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/777e902a-8d7d-405a-80ca-97f89749b91e.jpeg?im_w=720",
-        carouselPic3 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/04398ee5-0e48-462a-86a0-a3801bad2172.jpeg?im_w=720",
-        carouselPic4 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/ca837f4e-fc63-4de8-8abd-d867f5045196.jpeg?im_w=720" ,
-        carouselPic5 : "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/49cddd92-0663-4ec8-8272-43f207fcfd4f.jpeg?im_w=720",
-        location:"italy",
-        pets:false,
-    },
 
     {
         id:"106",

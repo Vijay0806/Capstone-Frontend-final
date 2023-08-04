@@ -9,12 +9,9 @@ import 'swiper/css/bundle';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { FiHeart } from "react-icons/fi"
-import { IoBedOutline } from "react-icons/io5"
-import { GiBathtub } from "react-icons/gi"
 import { BsStars } from "react-icons/bs"
-import { BiBuildingHouse } from "react-icons/bi"
 import { Pagination } from "swiper";
-
+import {FaBath, FaBed,FaBuilding } from "react-icons/fa";
 
 // TAB 2 = nationalpark
 
@@ -89,13 +86,14 @@ const Page2 = ({ pushDown }) => {
 
                                     <p className='text-2xl pl-3'> {item.name} </p>
 
-                                    <p className='text-gray-400 text-sm pl-3 mb-3 mt-2'> 2699 Green Valley hughland lake ... </p>
+                                    <p className='text-gray-400 text-sm pl-3 mb-3 mt-2'> 2699 Green Valley hughland lake </p>
+                                    <p className="text-yellow-400">★★★★✫</p>
                                     <hr className='mb-4' />
 
                                     <div className='flex justify-center pl-2 gap-4 md:gap-3'>
-                                        <span className='flex items-center'> <IoBedOutline className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 2} beds </p></span>
-                                        <span className='flex items-center'> <GiBathtub className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 2} bath </p> </span>
-                                        <span className='flex items-center'> <BiBuildingHouse className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'> {Math.floor(Math.random() * 2) + 2} floors </p></span>
+                                        <span className='flex items-center'> <FaBath className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 1}Shower  </p> </span>
+                                        <span className='flex items-center'> <FaBed className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'>{Math.floor(Math.random() * 5) + 2} Beds </p></span>
+                                        <span className='flex items-center'> <FaBuilding className=' md:text-2xl text-xl mr-2' /> <p className='text-sm text-gray-400 w-16'> {Math.floor(Math.random() * 2) + 1} Floors </p></span>
 
                                     </div>
 
