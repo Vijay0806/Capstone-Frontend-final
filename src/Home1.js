@@ -69,14 +69,18 @@ export function LoginForm() {
   });
 
   return (
-    <div>
-      <form
-        onSubmit={handleSubmit}
-        className="w-full max-w-md bg-white rounded-lg shadow-md p-8"
-      >
-        <h2 className="text-2xl mb-4">
-          Login/<Link to={'/signin'}>Sign Up</Link>
-        </h2>
+        <div className="flex items-center justify-center h-screen-3/4">
+        <div className="w-96 h-56 bg-white rounded-lg p-8">
+         <form onSubmit={handleSubmit}>
+              <h2 className="text-2xl mb-4 font-bold">
+              <span className="text-green-500">Login/</span>
+              <span className="text-purple-500">
+              <Link to={'/signin'} className="hover:text-yellow-500">Sign Up</Link>
+              </span>
+              </h2>
+                        {/* <h2 className="text-2xl mb-4 font-bold text-purple-700 tracking-wide">
+                    Login/<Link to={'/signin'}>Sign Up</Link>
+                        </h2> */}
         <div className="mb-4">
           <label htmlFor="username" className="block text-gray-700 font-bold mb-2">
             Username
@@ -84,7 +88,7 @@ export function LoginForm() {
           <input
             type="text"
             id="username"
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 shadow-md"
             onChange={handleChange}
             onBlur={handleBlur}
             value={values.username}
@@ -93,7 +97,7 @@ export function LoginForm() {
           {touched.username && errors.username ? (
             <p className="text-red-500 text-xs mt-1">{errors.username}</p>
           ) : null}
-        </div>
+        {/* </div> */}
         <div className="mb-4 relative">
           <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
             Password
@@ -108,7 +112,7 @@ export function LoginForm() {
             name="password"
           />
           <span
-            className="absolute right-3 top-1/2 -mt-2 cursor-pointer"
+            className="eye"
             onClick={handleToggle}
           >
             {passwordIcon}
@@ -117,20 +121,22 @@ export function LoginForm() {
             <p className="text-red-500 text-xs mt-1">{errors.password}</p>
           ) : null}
         </div>
+        </div>
         <button
           type="submit"
           className={`w-full py-2 rounded ${
-            formState === 'error' ? 'bg-red-500' : 'bg-blue-500'
-          } text-white font-bold`}
+            formState === 'error' ? 'bg-red-500 hover:bg-red-600' : 'bg-purple-600 hover:bg-green-500'   
+          } text-white font-bold `}
         >
           {formState === 'error' ? 'Retry' : 'Login'}
         </button>
       </form>
       {roleId ? (
-        <button onClick={() => logout()} className="bg-red-500 text-white px-4 py-2 rounded">
+        <button onClick={() => logout()} className="bg-red-500 text-white px-4 py-2 rounded my-4 hover:text-yellow-500">
           Logout
         </button>
       ) : null}
+    </div>
     </div>
   );
 }

@@ -75,21 +75,23 @@ height: 100vh;
   border-radius: 50%;
   border: 1px solid black;
 }
-.eye{
+
+.eye {
   position: absolute;
-  right:18%;
-  top:41%;
-  left:60%;
+  right: 35px;
+  /* top: 50%; */
+  top: calc(100% + -20px); 
+  transform: translate(50%, -50%);
   width: 15px;
+  cursor: pointer;
 }
-.worker_container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  justify-items: center; 
-  margin-bottom: 20px;
-  margin-top: 20px;
+
+
+.bg-white {
+  --tw-bg-opacity: -1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+
 
 .phone-picture {
   height: 540px;

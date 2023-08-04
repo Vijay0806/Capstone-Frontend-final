@@ -57,12 +57,12 @@ function Signin() {
   });
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="flex items-center justify-center h-screen-3/4">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md bg-white rounded-lg shadow-md p-8"
+        className="w-96 h-56 bg-white rounded-lg p-8"
       >
-        <h2 className="text-2xl mb-4">SIGN UP</h2>
+        <h2 className="text-2xl mb-4 font-bold text-purple-700 tracking-wide">SIGN UP</h2>
         <div className="mb-4">
           <label
             htmlFor="username"
@@ -73,7 +73,7 @@ function Signin() {
           <input
             type="text"
             id="username"
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 shadow-md"
             onChange={handleChange}
             onBlur={handleBlur}
             value={values.username}
@@ -100,7 +100,7 @@ function Signin() {
             name="password"
           />
           <span
-            className="absolute right-3 top-1/2 -mt-2 cursor-pointer"
+            className="eye"
             onClick={handleToggle}
           >
             {passwordIcon}
@@ -112,7 +112,7 @@ function Signin() {
         <button
           type="submit"
           className={`w-full py-2 rounded ${
-            formState === 'error' ? 'bg-red-500' : 'bg-blue-500'
+            formState === 'error' ? 'bg-red-500 hover:bg-red-500' : 'bg-orange-500 hover:bg-yellow-500'
           } text-white font-bold`}
         >
           {formState === 'error' ? 'Retry' : 'Sign Up'}
