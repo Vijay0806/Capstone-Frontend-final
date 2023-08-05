@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaAirbnb } from "react-icons/fa";
 import "../styles/Home.css";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { useState } from 'react';
@@ -14,12 +13,36 @@ import { AiOutlinePlusCircle } from "react-icons/ai"
 import { AiOutlineMinusCircle } from "react-icons/ai"
 import Select from 'react-select';
 import { IoLocationOutline } from "react-icons/io5";
+import {AiOutlineLogout}  from "react-icons/ai";
+import { Navigate,useNavigate } from 'react-router-dom';
 
-import { LoginSocialGoogle } from 'reactjs-social-login';
-import { StickyContainer, Sticky } from 'react-sticky';
-import GoogleButton from 'react-google-button'
+
+export function logout() {
+  localStorage.removeItem("token")
+  localStorage.removeItem("roleId")
+
+  window.location.href = "/";
+}
+function ProdectedRoute({ children }) {
+  const isAuth = localStorage.getItem("token");
+  console.log(isAuth)
+  return isAuth ? children : <Navigate replace to={"/"} />
+}
+//checkAuth is normal fuction not a component
+export function checkAuth(data) {
+  if (data.status === 401) {
+    console.log("Unauthorized")
+    throw Error("Unauthorized")
+  }
+  else {
+    return data.json();
+  }
+}
+
 
 const Home = ({ toggle, setToggle }) => {
+  
+  const roleId = localStorage.getItem('roleId');
 
   const [inputValue, setInputeValue] = useState("");
 
@@ -374,23 +397,11 @@ const Home = ({ toggle, setToggle }) => {
             </div>
             <div className="block">
               <div className="inline relative">
-                {<button type="button" className="inline-flex items-center relative px-2 border rounded-full hover:shadow-lg">
+                {<button type="button" className="inline-flex items-center relative px-2 border rounded-full">
                   <div className="pl-1 googleAuthBtnHold w-10">
-                    <LoginSocialGoogle
-                      client_id={`${process.env.REACT_APP_AUTH_CLIENT}.apps.googleusercontent.com`}
-                      scope="openid profile email"
-                      discoveryDocs="claims_supported"
-                      access_type="offline"
-                      onResolve={({ provider, data }) => {
-                        (data.email_verified === true ? setUserImage(data.picture) : setVerified(false));
+                   
+                  <button className="w-32 !important"><AiOutlineLogout className=' md:text-2xl text-xl mr-2 text-green-500 hover:text-red-500'onClick={() => logout()} /> </button>
 
-                      }}
-                      onReject={(err) => {
-                        console.log(err)
-                      }}
-                    >
-                      {/* <GoogleButton type='dark' label='' className='googleAuthBtn' /> */}
-                    </LoginSocialGoogle>
                   </div>
                   {userimage.length > 2 ? <img src={userimage} className="UserLoginImage ml-5" /> : <div className="block flex-grow-0 flex-shrink-0 h-10 w-12 pl-5">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style={{ display: 'block', height: '100%', width: '100%', fill: 'currentcolor' }}>

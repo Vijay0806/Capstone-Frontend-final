@@ -51,11 +51,11 @@ function App() {
     <div className="App">
       <AppBar position='static'>
         <Toolbar>
-          <Button color="inherit" onClick={() => navigate("/")}>Home</Button>
-          <Button color="inherit" onClick={() => navigate("/Amazing")}>AirBnb</Button>
+          <Button color="inherit" sx={{ '&:hover': { color: 'orange' } }} onClick={() => navigate("/")}>Home</Button>
+          <Button color="inherit"  sx={{ '&:hover': { color: 'Pink' } }} onClick={() => navigate("/Amazing")}>AirBnb</Button>
           {roleId == 0 ? <Button color="inherit" onClick={() => navigate("/Amazing")}>Amazing</Button> : null}
           {roleId ? (
-            <Button color="inherit" style={{ marginLeft: "auto" }} onClick={() => logout()}>LOGOUT</Button>
+            <Button color="inherit" sx={{ '&:hover': { color: 'red' } }} style={{ marginLeft: "auto" }} onClick={() => logout()}>LOGOUT</Button>
           ) : (
             <Button style={{ marginLeft: "auto" }} color="inherit" onClick={() => navigate("/login")}>LOGIN</Button>
           )}
@@ -74,7 +74,7 @@ function App() {
             {/* <Route  path='/Amazing' element={ <ProdectedRoute><Home /> </ProdectedRoute> }></Route> */}
             {/* <Route  path='/TabsComp' element={<TabsComp/>} ></Route> */}
             <Route path="/" exact element={ <ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </> </ProdectedRoute>} />
-            <Route path="/Amazing" exact element={<ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} /> </> </ProdectedRoute> } />
+            <Route path="/Amazing" exact element={<ProdectedRoute><>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} /> <SearchPageFooter /> </> </ProdectedRoute> } />
             <Route path="/:id" element={<ProdectedRoute>  <>  <Home /> <SinglePage /> </> </ProdectedRoute> } />
             <Route path="/checkout/:id/:days" exact element={<ProdectedRoute>  <> <Home />  <Checkout /> </> </ProdectedRoute> } />
             <Route path="/location/:loc" exact element={ <ProdectedRoute> <>  <Home /> <SearchDetails /> </> </ProdectedRoute> } />

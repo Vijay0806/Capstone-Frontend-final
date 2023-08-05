@@ -16,6 +16,16 @@
   background-repeat: no-repeat;
   text-align: center;
 }
+.fill-blue {
+  fill: blue;
+}
+.fill-purple {
+  fill:purple;
+}
+.fill-red {
+  fill:red;
+}
+
 
 label {
   font-size: 20px;
