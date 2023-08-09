@@ -58,9 +58,10 @@ function Signin() {
 
   return (
     <div className="flex items-center justify-center h-screen-3/4">
+            <div className="w-96 bg-white rounded-lg shadow-md p-4 border border-black-500">
       <form
         onSubmit={handleSubmit}
-        className="w-96 h-56 bg-white rounded-lg p-8"
+        // className="w-96 h-56 bg-white rounded-lg p-8"
       >
         <h2 className="text-2xl mb-4 font-bold text-purple-700 tracking-wide">SIGN UP</h2>
         <div className="mb-4">
@@ -118,6 +119,7 @@ function Signin() {
           {formState === 'error' ? 'Retry' : 'Sign Up'}
         </button>
       </form>
+    </div>
     </div>
   );
 }

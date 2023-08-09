@@ -70,6 +70,7 @@ export function LoginForm() {
 
   return (
         <div className="flex items-center justify-center h-screen-3/4">
+           <div className="border border-black-500 rounded-lg shadow-md">
         <div className="w-96 h-56 bg-white rounded-lg p-8">
          <form onSubmit={handleSubmit}>
               <h2 className="text-2xl mb-4 font-bold">
@@ -131,11 +132,13 @@ export function LoginForm() {
           {formState === 'error' ? 'Retry' : 'Login'}
         </button>
       </form>
+      </div><br/><br/><br/><br/>
       {roleId ? (
-        <button onClick={() => logout()} className="bg-red-500 text-white px-4 py-2 rounded my-4 hover:text-yellow-500">
+        <button onClick={() => logout()} className="bg-orange-500 text-white px-4 py-2 rounded my-4 hover:bg-red-500">
           Logout
         </button>
       ) : null}
+
     </div>
     </div>
   );
