@@ -57,12 +57,35 @@ function Signin() {
   });
 
   return (
+    <div className="back_img">
     <div className="flex items-center justify-center h-screen-3/4">
-            <div className="w-96 bg-white rounded-lg shadow-md p-4 border border-black-500">
+            <div className="w-96 bg-blue-200 rounded-lg shadow-md p-4 border border-black-500">
       <form
         onSubmit={handleSubmit}
         // className="w-96 h-56 bg-white rounded-lg p-8"
       >
+        <style>
+        {`
+          @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+          }
+
+          @keyframes randomAnimation {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateY(10px); }
+            50% { transform: translateX(-10px); }
+            75% { transform: translateY(-10px); }
+            .random-font {
+              font-family: 'Arial', sans-serif;
+              /* Add more font style attributes here */
+            } 
+        `}
+      </style>
+        <h1 className=" text-2xl mb-4 font-bold uppercase animate-color-change animate-random-color animate-random-animation">ℕ𝕖𝕨 𝕌𝕤𝕖𝕣 ℍ𝕖𝕣𝕖?</h1>
         <h2 className="text-2xl mb-4 font-bold text-purple-700 tracking-wide">SIGN UP</h2>
         <div className="mb-4">
           <label
@@ -119,6 +142,7 @@ function Signin() {
           {formState === 'error' ? 'Retry' : 'Sign Up'}
         </button>
       </form>
+      </div>
     </div>
     </div>
   );

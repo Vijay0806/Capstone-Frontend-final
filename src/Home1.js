@@ -14,8 +14,30 @@ const movieValidationSchema = yup.object({
 
 function Home() {
   return (
-    <div className="home_container">
-      {/* Your content goes here */}
+    <div className="flex justify-center items-start h-screen home_container">
+       <style>
+        {`
+          @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+          }
+
+          @keyframes randomAnimation {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateY(10px); }
+            50% { transform: translateX(-10px); }
+            75% { transform: translateY(-10px); }
+            .random-font {
+              font-family: 'Arial', sans-serif;
+              /* Add more font style attributes here */
+            } 
+        `}
+      </style>
+      <h1 className="text-3xl font-bold text-red-500 animate-color-change animate-random-color animate-random-animation" style={{ color: '#F5575C' }}>ℌ𝔬𝔪𝔢𝔄𝔴𝔞𝔶 ℌ𝔞𝔳𝔢𝔫: 𝔘𝔫𝔳𝔢𝔦𝔩𝔦𝔫𝔤 𝔘𝔫𝔦𝔮𝔲𝔢 𝔖𝔱𝔞𝔶𝔰 𝔴𝔦𝔱𝔥 𝔄𝔦𝔯𝔟𝔫𝔟</h1>
+        {/* Your content goes here */}
     </div>
   );
 }
@@ -69,9 +91,32 @@ export function LoginForm() {
   });
 
   return (
+    <div className="back_img">
         <div className="flex items-center justify-center h-screen-3/4">
-           <div className="border border-black-500 rounded-lg shadow-md">
+           <div className="border border-black-500 rounded-lg shadow-md bg-blue-200">
         <div className="w-96 h-56 bg-white rounded-lg p-8">
+          <style>
+        {`
+          @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+          }
+
+          @keyframes randomAnimation {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateY(10px); }
+            50% { transform: translateX(-10px); }
+            75% { transform: translateY(-10px); }
+            .random-font {
+              font-family: 'Arial', sans-serif;
+              /* Add more font style attributes here */
+            } 
+        `}
+      </style>
+      <h1 className=" text-2xl mb-4 font-bold uppercase animate-color-change animate-random-color animate-random-animation">𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝔸𝕀ℝ𝔹ℕ𝔹</h1>
          <form onSubmit={handleSubmit}>
               <h2 className="text-2xl mb-4 font-bold">
               <span className="text-green-500">Login/</span>
@@ -132,13 +177,13 @@ export function LoginForm() {
           {formState === 'error' ? 'Retry' : 'Login'}
         </button>
       </form>
-      </div><br/><br/><br/><br/>
+      </div><br/><br/><br/><br/><br/>
       {roleId ? (
         <button onClick={() => logout()} className="bg-orange-500 text-white px-4 py-2 rounded my-4 hover:bg-red-500">
           Logout
         </button>
       ) : null}
-
+    </div>
     </div>
     </div>
   );
