@@ -93,7 +93,7 @@ export function LoginForm() {
   return (
     <div className="back_img">
         <div className="flex items-center justify-center h-screen-3/4">
-           <div className="border border-black-500 rounded-lg shadow-md bg-blue-200">
+           <div className="border  border-black-500 p-4 rounded-lg shadow-md  bg-blue-200">
         <div className="w-96 h-56 bg-white rounded-lg p-8">
           <style>
         {`
