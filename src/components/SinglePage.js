@@ -121,8 +121,7 @@ const SinglePage = () => {
             </div>
 
             <div className='side-box-card absolute'>
-                <p className='single-page-price font-semibold text-2xl'> ${price}/ ℕ𝕚𝕘𝕙𝕥   </p>
-
+                <p className='single-page-price font-semibold text-2xl'> ${price}/ 𝐍𝐢𝐠𝐡𝐭  </p>
                 <div className='ab'>
                     <FaStar />
                 </div>
@@ -150,7 +149,7 @@ const SinglePage = () => {
 
             <div className='calculated-expense-hold'>
 
-                <p className='relative w-40 le'>calculated at next stage</p>
+                <p className='relative w-40 le'>calculated at next step</p>
                 <p>150</p>
                 <p>250</p>
                 <p>530</p>
@@ -161,8 +160,7 @@ const SinglePage = () => {
             <div className='price-total-text absolute font-semibold text-xl uppercase'>Total</div>
 
             <p className='price-total absolute font-semibold text-xl'>Calculated At Checkout</p>
-
-
+           
             <SinglePageMiddle />
 
             <Footer1 />

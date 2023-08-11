@@ -148,6 +148,7 @@
     left: 12rem;
     flex-wrap: wrap;
     font-style: italic;
+   
 
 }
 
@@ -167,10 +168,12 @@
     width: 25rem;
     height: 31rem;
     left: 60rem;
-
+    /* text-align: left; */
+    display: flex; 
+    justify-content: flex-start;
     border: 1px solid rgb(221, 221, 221);
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
     box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
 }
 
@@ -233,12 +236,92 @@
     position: absolute;
     top: -33rem;
     left: 27rem;
+     text-align: left;
     z-index: 9999999999999999999;
 }
 
 .calendarHolder2 {
     z-index: 99999999;
+    position:absolute;
+    bottom: 0;
 }
+
+/* Common styles for calendarHolder and calendarHolder2 */
+.calendarHolder,
+.calendarHolder2 {
+    position: relative;
+    /* Add other common styles for calendarHolder and calendarHolder2 here */
+}
+
+/* Styles for close-cal button */
+.close-cal {
+    background-color: #FD5B61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add other styles for the close-cal button here */
+}
+
+.close-cal:hover {
+    background-color: #FF7F82;
+}
+
+/* Styles for days-0 and days-updated */
+.days-0,
+.days-updated {
+    font-size: 16px;
+    margin: 10px 0;
+    /* Add other shared styles for days-0 and days-updated here */
+}
+
+/* Additional styles for days-updated */
+.days-updated {
+    font-weight: bold;
+    /* Add any specific styles for days-updated here */
+}
+
+/* Styles for checkout buttons */
+.checkout-btn,
+.checkout-btn-after {
+    background-color: #0A98C2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    /* Add other styles for checkout buttons here */
+}
+
+.checkout-btn:hover,
+.checkout-btn-after:hover {
+    background-color: #1BA0D7;
+}
+
+/* Responsive Design */
+/* @media screen and (max-width: 768px) {
+    .close-cal {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    
+    .days-0,
+    .days-updated {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+    
+    .checkout-btn,
+    .checkout-btn-after {
+        font-size: 14px;
+        padding: 8px 15px;
+        margin-top: 8px;
+    }
+} */
 
 
 .rdrDateDisplayWrapper {
@@ -248,7 +331,7 @@
 
 .days-0 {
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     width: 7.8rem;
     left: 15rem;
     white-space: nowrap;

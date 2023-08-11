@@ -124,7 +124,7 @@
     z-index: 999999999999 !important;
     position: relative !important;
     top: -4rem !important;
-    /*left: -7.5rem !important;*/
+    /* left: -7.5rem !important; */
 }
 
 
@@ -137,21 +137,21 @@
     border-radius: 20px !important;
     position: relative;
     top: -2rem !important;
-    left: 2rem !important;
+    left: -2rem !important;
 
 }
 
 .adultsKidsHold {
     position: relative;
-    top: 3rem !important;
-    left: 3rem;
-    gap: 4.2rem;
+    top: 4rem !important;
+    left: 0rem;
+    gap: 4.6rem;
 }
 
 .adultCriteriaHold {
-    top: -14rem !important;
+    top: -13rem !important;
     gap: 4.4rem;
-    left: 3rem;
+    left: 0rem;
 }
 
 .divideLineHold {
@@ -174,17 +174,18 @@
     font-size: 30px;
 }
 
+
 .btnControlsPlus {
     top: -48rem !important;
-    left: 17rem !important;
+    left: 10rem !important;
     gap: 4.5rem;
     cursor: pointer;
-    width: 1.5rem;
+    width: 2.8rem;
 }
 
 .btnControlMinus {
     top: -62.7rem;
-    left: 22rem;
+    left: 15rem;
     gap: 4.5rem;
     cursor: pointer !important;
 
@@ -192,8 +193,8 @@
 
 
 .navQtyHold {
-    top: -77rem;
-    left: 20rem;
+    top: -77.5rem;
+    left: 13rem;
     gap: 5rem;
     display: flex;
     flex-direction: column;
@@ -204,7 +205,7 @@
 
 .selectWrapper {
     position: relative;
-    top: -73rem;
+    top: -75.6rem;
     left: 16.4rem;
     width: 7rem !important;
     outline: none !important;

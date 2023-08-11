@@ -30,7 +30,8 @@ const CalendarFunc = (props) => {
     var daysCheck = differenceInDays(endDate, startDate);
 
 
-    return (<div className='calendarHolder calendarHolder2'>
+    return (
+    <div className='calendarHolder calendarHolder2'>
         
         {props.buttonopenState && <DateRangePicker ranges={[selectionRange]} minDate={new Date()} rangeColors={["#FD5B61"]} onChange={handleSelect} />}
 
@@ -41,7 +42,41 @@ const CalendarFunc = (props) => {
         {daysCheck == 0 ? "" : <Link to={`/checkout/${props.placesId}/${daysCheck}`} state={{ data: data }}  > <button className={props.buttonCloseState === false ? "checkout-btn-after" : "checkout-btn"}>Proceed To checkout</button>  </Link>}
 
 
-    </div>)
+    </div>
+//     <div className='calendarHolder calendarHolder2'>
+//     {props.buttonopenState && <DateRangePicker ranges={[selectionRange]} minDate={new Date()} rangeColors={["#FD5B61"]} onChange={handleSelect} />}
+
+//     {props.buttonopenState && <button className='close-cal rounded-xl' onClick={props.closeFunc}>Close calendar</button>}
+
+//     {daysCheck == 0 ? (
+//         <p className={daysCheck == 0 ? "days-0" : "days-updated"}>
+//             days selected = 0
+//         </p>
+//     ) : (
+//         <p className='days-updated'>{daysCheck} days selected</p>
+//     )}
+
+//     {daysCheck == 0 ? (
+//         ""
+//     ) : (
+//         <Link
+//             to={`/checkout/${props.placesId}/${daysCheck}`}
+//             state={{ data: data }}
+//         >
+//             <button
+//                 className={
+//                     props.buttonCloseState === false
+//                         ? "checkout-btn-after"
+//                         : "checkout-btn"
+//                 }
+//             >
+//                 Proceed To checkout
+//             </button>
+//         </Link>
+//     )}
+// </div>
+
+    )
 }
 
 export default CalendarFunc

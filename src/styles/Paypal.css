@@ -165,14 +165,15 @@
 
 .totalCard2 {
     position: absolute;
-    top: 14.8rem;
-    right: 26.7rem;
+    top: 16.8rem;
+    left: 11.2rem;
+    right: 24.7rem;
 }
-
 .hello2 {
     top: 18.5rem;
     height: 10rem;
     width: 19rem;
+    font-size: small;
     right: 14rem;
 }
 

@@ -68,9 +68,7 @@ const Paypal = (props) => {
             </div>
 
             <div className="hello2 flex flex-col absolute gap-3 bg-white italic  text-lg">
-                <p>Hello Jamie</p>
-
-                <p>You Are About To Pay ${(price1 * numOfDays) + 240 + 65}</p>
+                <p>Confirm To Pay ${(price1 * numOfDays) + 240 + 65}</p>
             </div>
 
             <div className='confirmHold2 absolute outline-none border-none'>
