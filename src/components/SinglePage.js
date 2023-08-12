@@ -70,10 +70,10 @@ const SinglePage = () => {
             <div className='basicDeatils flex flex-row text-lg'>
                 <p className='font-semibold uppercase'>{name}</p>
                 <div className=''>
-                    <FaStar className=' text-xl inline-block mr-2 ' />
-                    <p className=' inline-block'> {stars} </p>
+                    <FaStar className=' text-xl inline-block mr-2 text-yellow-400' />
+                    <p className=' inline-block text-red-500'> {stars} </p>
                 </div>
-                <p className=''>{Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviews</p>
+                <p className='text-purple-700'>{Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviews</p>
 
             </div>
 
@@ -123,10 +123,10 @@ const SinglePage = () => {
             <div className='side-box-card absolute'>
                 <p className='single-page-price font-semibold text-2xl'> ${price}/ 𝐍𝐢𝐠𝐡𝐭  </p>
                 <div className='ab'>
-                    <FaStar />
+                    <FaStar className='text-yellow-400' />
                 </div>
 
-                <p className='rev-card absolute'>{stars}</p>
+                <p className='rev-card absolute text-red-500'>{stars}</p>
                 <p className='rev2-card font-semibold'> <p>{Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviews</p>  </p>
 
             </div>
@@ -157,9 +157,9 @@ const SinglePage = () => {
             </div>
             <div className='line-total text-gray-300'>_____________________________________________________</div>
 
-            <div className='price-total-text absolute font-semibold text-xl uppercase'>Total</div>
+            <div className='price-total-text absolute font-semibold text-xl uppercase hidden sm:block'>Total</div>
 
-            <p className='price-total absolute font-semibold text-xl'>Calculated At Checkout</p>
+            <p className='price-total absolute font-semibold text-xl hidden sm:block'>Calculated At Checkout</p>
            
             <SinglePageMiddle />
 

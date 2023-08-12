@@ -42,12 +42,10 @@ const SinglePageMiddle = () => {
             <p className="font-bold text-xl underline">Show more</p>
 
         </div>
-
-        <div className='section3'>
-            <img src={section3} className="c" />
-        </div>
-
-        <p className='spmLine3 text-gray-300'>__________________________________________________________________________________________________________</p>
+                <div className='section3'>
+                    <img src={section3} className="img_small w-full sm:w-20 lg:w-full sm:order-last" />
+                </div>
+         <p className='spmLine3 text-gray-300'>__________________________________________________________________________________________________________</p>
 
 
         <div className='spm-star'>
@@ -63,21 +61,26 @@ const SinglePageMiddle = () => {
 
         </div>
 
+        {/* <div className='review-hold'>
+
+            <img src={reviews} className="spm-review " />
+
+        </div> */}
         <div className='review-hold'>
+    <img src={reviews} className="spm-review w-full sm:w-1/2"/>
+</div>
 
-            <img src={reviews} className="spm-review" />
-
-        </div>
 
         <button className='' onClick={(e) => e.preventDefault()}></button>
 
         <div className='agg'>
-          <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn float-left">Display additional 14 reviews.</label>
+        <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn float-left bg-red-500 hover:bg-blue-500 ">Display additional 14 reviews</label>
+        {/* <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn float-left">Display additional 14 reviews.</label> */}
             <input type="checkbox" id="my-modal-5" className="modal-toggle" />
             <label htmlFor="my-modal-5" className="modal cursor-pointer">
                 <label className="modal-box relative" for="">
-                    <FaStar className='modal-star' />
-                    <p className='modal-review font-semibold'>{stars}, 14 reviews</p>
+                    <FaStar className='modal-star text-yellow-400' />
+                    <p className='modal-review font-semibold text-red-500'>{stars}, 14 reviews</p>
 
 
 
